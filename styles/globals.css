@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mob-main {
+    display: flex;
+}
+
+.mob-aside {
+    background-color: #838383;
+    width: 18.75rem;
+    height: 100vh;
+    top: 0;
+}
+
+.googlefont {
+    font-family: 'Hanalei', cursive;
+    background-image: linear-gradient(#cccccc 54%, #708077 54%);
+    background-clip: text;
+    color: transparent;
+}
+
+.mob-container {
+    margin: 5.5rem 1.4rem;
+}
+
+.btn-container {
+    position: fixed;
+}
+
+.mob-container div {
+    color: black;
+    text-decoration: none;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.mob-button {
+    cursor: pointer;
+    margin: 1rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #f9fafb;
+}
+
+.mob-link {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+

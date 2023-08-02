@@ -1,5 +1,5 @@
-<a href="https://globpanel.com">
-  <img alt="GlobPanel - We provide the Top and Best Tools and RDP Hostings at No Cost with cheapest rate." src="https://globpanel.com/api/og">
+<a href="https://globpanel.vercel.app">
+  <img alt="GlobPanel - We provide the Top and Best Tools and RDP Hostings at No Cost with cheapest rate." src="https://globpanel.vercel.app/api/og">
   <h1 align="center">GlobPanel</h1>
 </a>
 

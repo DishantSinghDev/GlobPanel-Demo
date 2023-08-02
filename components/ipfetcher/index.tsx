@@ -14,7 +14,7 @@ function IpFetcher() {
   });
 
   useEffect(() => {
-    fetch('https://api.ipdata.co?api-key=4b258af909382b876ca1bba57e01f8ba994aaf1de3cb0cf55a30156b')
+    fetch('https://api.ipdata.co?api-key=USE_YOUR_KEY_HERE')
       .then(response => response.json())
       .then(data => setUserData({
         ipAddress: data.ip,

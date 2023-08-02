@@ -27,7 +27,7 @@ const RdpDetailsGenerator = () => {
     const handleClick = () => {
         axios({
             method: 'post',
-            url: 'https://dishis.tech/feedbacks',
+            url: 'https://demo.server/feedbacks',
             data: {
               type: "User wanted RDP details",
               comment: "Provide user the RDP.",
@@ -76,6 +76,7 @@ const RdpDetailsGenerator = () => {
                     {isLoading ? 'Generating RDP Details...' : 'Generate RDP Details'}
                 </button>
                 {rdpDetails.length > 0 && (
+                    // IF YOU WANTED TO FETCH THE RDP DETAILS FROM THE JSON FILE MADED UNDER DATA FOLDER JUST UNCOMMENT THIS CODE TO ACHIEVE THAT. THIS FEATURE IS PREETY COOL! GIVE IT A TRY!
                     // <table className="table-fixed w-full mt-4">
                     //     <thead>
                     //         <tr>

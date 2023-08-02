@@ -63,7 +63,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p>Powered by DishIs</p>
+            <p>Powered by DishIs. Developed By Dishant Singh</p>
           </Link>
         </motion.div>
       </motion.div>

@@ -158,7 +158,7 @@ export default function Layout({
                     <a 
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://github.com/dishis" className="hover:underline ">Github</a>
+                    href="https://github.com/DishantSinghDev" className="hover:underline ">Github</a>
                   </li>
                   <li>
                     <a target="_blank"
